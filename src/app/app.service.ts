@@ -6,7 +6,7 @@ import "rxjs/add/operator/map";
 
 @Injectable()
 export class AppService {
-  public wallet = '38Znz8NDCtLRjaXemQ8PJibdPMJ6LkQUYa';
+  public wallet = '3LpVLgqKGMeomB2vZQswkHuvVJkUTqAxwh';
   // public wallet = '3Mc6NytY5xgP39JTVn9ouinmVMTThuwdAc';
   private urlBitbyBtcPln = 'https://bitbay.net/API/Public/BTCPLN/ticker.json';
   private urlNicehash = 'http://piho.co.pl/niceh/niceh_api.php?balance&wall=' + this.wallet;
